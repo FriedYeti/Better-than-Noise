@@ -7,7 +7,8 @@ A hand crafted 16x16 texture pack designed for the [Better than Wolves](https://
 
 This is split into different ages to go along with Better than Wolves progression:
 
-
+The first release will be the Landscaping release. This will cover the majority of the block found while exploring the overworld surface:
+![Landscaping Progress](https://github.com/FriedYeti/better-than-noise/blob/master/images/LandscapingReleaseProgress.png)
 
 
 ## Building
