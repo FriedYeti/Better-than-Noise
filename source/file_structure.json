@@ -1,0 +1,102 @@
+{
+  "pack": {
+    "filetype": "png",
+    "description": "Texture pack thumbnail",
+    "aseprite_file": "pack.aseprite"
+  },
+  "pack.txt": {
+    "filetype": "txt",
+    "description": "Optional description of texture pack",
+    "aseprite_file": ""
+  },
+  "particles": {
+    "filetype": "png",
+    "description": "All particles",
+    "aseprite_file": "particles.aseprite"
+  },
+  "achievement/": {
+    "filetype": "dir",
+    "description": "Directory for achievements screen GUI",
+    "aseprite_file": "achievement-atlas.aseprite"
+  },
+  "armor/": {
+    "filetype": "dir",
+    "description": "Directory for all armor textures",
+    "aseprite_file": "armor-atlas.aseprite"
+  },
+  "art/": {
+    "filetype": "dir",
+    "description": "All paintings in the game",
+    "aseprite_file": "art-atlas.aseprite"
+  },
+  "btwmodtex": {
+    "filetype": "dir",
+    "description": "better than wolves mob and inventory textures",
+    "aseprite_file": "btwmodtex-atlas.aseprite"
+  },
+  "environment/": {
+    "filetype": "dir",
+    "description": "snow, rain, and clouds",
+    "aseprite_file": "environment-atlas.aseprite"
+  },
+  "font/": {
+    "filetype": "dir",
+    "description": "in game font",
+    "aseprite_file": "font-atlas.aseprite"
+  },
+  "gui/": {
+    "filetype": "dir",
+    "description": "hotbar, inventory, logo, etc.",
+    "aseprite_file": "gui-atlas.aseprite"
+  },
+  "item/": {
+    "filetype": "dir",
+    "description": "item entity textures",
+    "aseprite_file": "item-entity-atlas.aseprite"
+  },
+  "item/chest": {
+    "filetype": "dir",
+    "description": "chest entity textures",
+    "aseprite_file": "item-entity-chests-atlas.aseprite"
+  },
+  "misc/": {
+    "filetype": "dir",
+    "description": "color overlays, clock dial, map background",
+    "aseprite_file": "misc-atlas.aseprite"
+  },
+  "mob/": {
+    "filetype": "dir",
+    "description": "all mobs",
+    "aseprite_file": "mob-atlas.aseprite"
+  },
+  "mob/enderdragon": {
+    "filetype": "dir",
+    "description": "enderdragon textures",
+    "aseprite_file": "mob-enderdragon-atlas.aseprite"
+  },
+  "mob/villager": {
+    "filetype": "dir",
+    "description": "all villager textures",
+    "aseprite_file": "mob-villager-atlas.aseprite"
+  },
+  "textures/items": {
+    "filetype": "dir",
+    "description:": "item textures",
+    "aseprite_file": "textures-items-atlas.aseprite"
+  },
+  "textures/blocks": {
+    "filetype": "dir",
+    "description:": "block textures",
+    "aseprite_file": "textures-blocks-atlas.aseprite"
+  },
+  "title/": {
+    "filetype": "dir",
+    "description": "panorama pics, main logo, etc",
+    "aseprite_file": "title-atlas.aseprite"
+  },
+  "title/bg/": {
+    "filetype": "dir",
+    "description": "main menu background panoramas",
+    "aseprite_file": ""
+  }
+}

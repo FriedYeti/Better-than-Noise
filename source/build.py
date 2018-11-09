@@ -127,7 +127,10 @@ def build_texture_pack():
                 if os.path.exists(value['aseprite_file']):
                     if args.verbose is True:
                         print('Exporting '+value['aseprite_file']+' to '+build_directory+'/'+j)
-                    aseprite_cli_export(aseprite_location, os.getcwd()+'/'+value['aseprite_file'], build_directory+'/'+j)
+                    if value['filetype'] == 'dir':
+                        aseprite_cli_export(aseprite_location, os.getcwd()+'/'+value['aseprite_file'], build_directory+'/'+j)
+                    else:
+                        aseprite_cli_export(aseprite_location, os.getcwd()+'/'+value['aseprite_file'], build_directory)
                 else:
                     print('Unable to find '+value['aseprite_file']+', skipping export.')
 
